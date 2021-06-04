@@ -1,0 +1,99 @@
+:root {
+	--background: #218858;
+	--text: #000000;
+}
+h1{
+  margin-top: 50px;
+  margin-bottom: -100px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.search{
+    size: 200px;
+   text-align: center;
+   font-size: 50px;
+   margin-top: 100px;
+}
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Montserrat', 'sans-serif';
+    color: var(--text);
+    overflow: hidden;
+    background: var(--background);
+   
+  }
+  @media (min-width: 601px) and (max-width: 980px) {
+    body {
+      overflow-y: auto;
+    }
+    .display {
+        width: 80%;
+      }
+      ul li {
+        flex: 70%;
+        max-width: 100%;
+      }
+      .search{
+        size: 150px;
+        font-size: 40px;
+      }
+  }
+  @media (max-width: 600px) {
+    body {
+      overflow-y: auto;
+    }
+    .display {
+        width: 90%;
+      }
+      ul li {
+        flex: 100%;
+    max-width: 100%;
+      }
+      .search{
+        size: 100px;
+        font-size: 30px;
+      }
+  }
+  .display {
+    text-align: center;
+    display: table;
+    margin: 0 auto;
+    
+  }
+ .flag{
+  width: 400px;
+  height:300px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  box-shadow: black;
+  border-style: solid;
+ }
+ .CountryInfo{
+  text-align: center;
+  display: table;
+  width: 100%;
+  margin: 0 auto;
+ 
+ }
+ ul li{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: baseline;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+
+ }
+ .NameSearch{
+   border-style: solid;
+   box-shadow: black;
+   color: rgb(0, 0, 0);
+   background-color: rgb(255, 255, 255);
+   opacity: 0.5;
+ }
